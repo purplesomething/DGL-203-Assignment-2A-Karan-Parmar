@@ -293,6 +293,6 @@ CSS Grid layout for modern browsers:
 
    .site {max-width: none;}
 
-   .main-area > * {display: grid;}
+   .main-area > *, .colophon {display: grid;}
 
 }  
