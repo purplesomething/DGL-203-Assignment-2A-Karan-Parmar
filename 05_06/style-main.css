@@ -218,7 +218,10 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 		.card img, .caption {grid-column: 1; grid-row: 1;}
 
-		.caption {display: flex; align-items: flex-end;}
+		.caption {display: flex; align-items: flex-end; opacity: 0;}
+
+		a:focus .caption,
+		a:hover .caption {opacity: 1;}
 
 	}
 
