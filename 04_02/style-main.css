@@ -291,6 +291,10 @@ CSS Grid layout for modern browsers:
 
 @supports (grid-area: auto) {
 
+	@media screen and (min-width: 600px) {
+		
+	
+
    .site {max-width: none;}
 
    .main-area > *, .colophon {display: grid; grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;}
@@ -303,3 +307,5 @@ CSS Grid layout for modern browsers:
 
 .twin
 .colophon aside {grid-column: span 2;}
+
+}
